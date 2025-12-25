@@ -54,3 +54,4 @@ netVisual_bubble(cellchat,
                  font.size.title = 16,
                  show.legend = F
                  )
+
