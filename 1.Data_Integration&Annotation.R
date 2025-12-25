@@ -1,4 +1,4 @@
-getwd()
+getwd() 
 rm(list = ls())
 library(Seurat) # Version 4
 library(limma)
@@ -100,6 +100,7 @@ DimPlot(sce,reduction="umap",
         group.by="cell_type",
         pt.size=0.5)+
   ggtitle('Cell Type')
+
 
 
 
